@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            HomeViewController()
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("ホーム")
+                }
+            RecordViewController()
+                .tabItem {
+                    Image(systemName: "note.text")
+                    Text("記録")
+                }
+        }
     }
 }
 

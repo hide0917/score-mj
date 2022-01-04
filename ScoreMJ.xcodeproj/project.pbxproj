@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77624B962784154A00BB7E36 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77624B952784154A00BB7E36 /* HomeViewController.swift */; };
+		77624B99278415CE00BB7E36 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77624B98278415CE00BB7E36 /* RecordViewController.swift */; };
 		77B0A1412782AFF600002166 /* ScoreMJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B0A1402782AFF600002166 /* ScoreMJApp.swift */; };
 		77B0A1432782AFF600002166 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B0A1422782AFF600002166 /* ContentView.swift */; };
 		77B0A1452782AFF800002166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B0A1442782AFF800002166 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77624B952784154A00BB7E36 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		77624B98278415CE00BB7E36 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		77B0A13D2782AFF600002166 /* ScoreMJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreMJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B0A1402782AFF600002166 /* ScoreMJApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreMJApp.swift; sourceTree = "<group>"; };
 		77B0A1422782AFF600002166 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +75,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77624B912784150F00BB7E36 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				77624B932784152900BB7E36 /* Screen */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		77624B922784151B00BB7E36 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		77624B932784152900BB7E36 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				77624B972784159E00BB7E36 /* Record */,
+				77624B942784153100BB7E36 /* Home */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		77624B942784153100BB7E36 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				77624B952784154A00BB7E36 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		77624B972784159E00BB7E36 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				77624B98278415CE00BB7E36 /* RecordViewController.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
 		77B0A1342782AFF600002166 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +138,8 @@
 		77B0A13F2782AFF600002166 /* ScoreMJ */ = {
 			isa = PBXGroup;
 			children = (
+				77624B922784151B00BB7E36 /* Resource */,
+				77624B912784150F00BB7E36 /* Contents */,
 				77B0A1402782AFF600002166 /* ScoreMJApp.swift */,
 				77B0A1422782AFF600002166 /* ContentView.swift */,
 				77B0A1442782AFF800002166 /* Assets.xcassets */,
@@ -259,6 +305,8 @@
 			files = (
 				77B0A1432782AFF600002166 /* ContentView.swift in Sources */,
 				77B0A1412782AFF600002166 /* ScoreMJApp.swift in Sources */,
+				77624B962784154A00BB7E36 /* HomeViewController.swift in Sources */,
+				77624B99278415CE00BB7E36 /* RecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

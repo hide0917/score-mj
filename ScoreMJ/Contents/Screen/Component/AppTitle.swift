@@ -22,7 +22,7 @@ struct AppTitle: View {
         }
         .frame(maxWidth: .infinity, alignment: .center)
         .padding()
-        .background(Color.myColor(colorCode: .background))
+        .background(Color.myColor(colorCode: .titleBackground))
     }
 }
 

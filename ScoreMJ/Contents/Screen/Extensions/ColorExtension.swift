@@ -10,7 +10,8 @@ import SwiftUI
 
 extension Color {
     enum AppColor: String {
-        case background = "C2EEFF"
+        case background = "EDF3FF"
+        case titleBackground = "F7F9F8"
     }
     
     static func myColor(colorCode: Color.AppColor) -> Color {

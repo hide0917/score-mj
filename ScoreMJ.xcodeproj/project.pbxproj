@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		773E3FEF27843B0C00C22FC7 /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E3FEE27843B0C00C22FC7 /* RecordViewModel.swift */; };
+		773E3FF227843FCF00C22FC7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E3FF127843FCF00C22FC7 /* ColorExtension.swift */; };
+		773E3FF42784427900C22FC7 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E3FF32784427900C22FC7 /* UIColorExtension.swift */; };
+		773E3FF727844A3400C22FC7 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E3FF627844A3400C22FC7 /* Rank.swift */; };
+		773E3FFA27844C3F00C22FC7 /* AppTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E3FF927844C3F00C22FC7 /* AppTitle.swift */; };
+		773E3FFE278563C300C22FC7 /* AppNumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E3FFD278563C300C22FC7 /* AppNumberField.swift */; };
+		773E4000278568CA00C22FC7 /* AppNumberFieldWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E3FFF278568CA00C22FC7 /* AppNumberFieldWithLabel.swift */; };
 		77624B962784154A00BB7E36 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77624B952784154A00BB7E36 /* HomeViewController.swift */; };
 		77624B99278415CE00BB7E36 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77624B98278415CE00BB7E36 /* RecordViewController.swift */; };
 		77B0A1412782AFF600002166 /* ScoreMJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B0A1402782AFF600002166 /* ScoreMJApp.swift */; };
@@ -36,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		773E3FEE27843B0C00C22FC7 /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
+		773E3FF127843FCF00C22FC7 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		773E3FF32784427900C22FC7 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		773E3FF627844A3400C22FC7 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		773E3FF927844C3F00C22FC7 /* AppTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTitle.swift; sourceTree = "<group>"; };
+		773E3FFD278563C300C22FC7 /* AppNumberField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNumberField.swift; sourceTree = "<group>"; };
+		773E3FFF278568CA00C22FC7 /* AppNumberFieldWithLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNumberFieldWithLabel.swift; sourceTree = "<group>"; };
 		77624B952784154A00BB7E36 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		77624B98278415CE00BB7E36 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		77B0A13D2782AFF600002166 /* ScoreMJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreMJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +89,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		773E3FF027843FC000C22FC7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				773E3FF127843FCF00C22FC7 /* ColorExtension.swift */,
+				773E3FF32784427900C22FC7 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		773E3FF527844A2800C22FC7 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				773E3FF627844A3400C22FC7 /* Rank.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		773E3FF827844C2000C22FC7 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				773E3FF927844C3F00C22FC7 /* AppTitle.swift */,
+				773E3FFD278563C300C22FC7 /* AppNumberField.swift */,
+				773E3FFF278568CA00C22FC7 /* AppNumberFieldWithLabel.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		77624B912784150F00BB7E36 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,18 +124,14 @@
 			path = Contents;
 			sourceTree = "<group>";
 		};
-		77624B922784151B00BB7E36 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
 		77624B932784152900BB7E36 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				77624B972784159E00BB7E36 /* Record */,
+				773E3FF827844C2000C22FC7 /* Component */,
+				773E3FF527844A2800C22FC7 /* Enum */,
+				773E3FF027843FC000C22FC7 /* Extensions */,
 				77624B942784153100BB7E36 /* Home */,
+				77624B972784159E00BB7E36 /* Record */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -111,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				77624B98278415CE00BB7E36 /* RecordViewController.swift */,
+				773E3FEE27843B0C00C22FC7 /* RecordViewModel.swift */,
 			);
 			path = Record;
 			sourceTree = "<group>";
@@ -138,7 +176,6 @@
 		77B0A13F2782AFF600002166 /* ScoreMJ */ = {
 			isa = PBXGroup;
 			children = (
-				77624B922784151B00BB7E36 /* Resource */,
 				77624B912784150F00BB7E36 /* Contents */,
 				77B0A1402782AFF600002166 /* ScoreMJApp.swift */,
 				77B0A1422782AFF600002166 /* ContentView.swift */,
@@ -304,8 +341,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B0A1432782AFF600002166 /* ContentView.swift in Sources */,
+				773E3FF42784427900C22FC7 /* UIColorExtension.swift in Sources */,
+				773E4000278568CA00C22FC7 /* AppNumberFieldWithLabel.swift in Sources */,
+				773E3FFE278563C300C22FC7 /* AppNumberField.swift in Sources */,
+				773E3FF727844A3400C22FC7 /* Rank.swift in Sources */,
 				77B0A1412782AFF600002166 /* ScoreMJApp.swift in Sources */,
 				77624B962784154A00BB7E36 /* HomeViewController.swift in Sources */,
+				773E3FF227843FCF00C22FC7 /* ColorExtension.swift in Sources */,
+				773E3FEF27843B0C00C22FC7 /* RecordViewModel.swift in Sources */,
+				773E3FFA27844C3F00C22FC7 /* AppTitle.swift in Sources */,
 				77624B99278415CE00BB7E36 /* RecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
